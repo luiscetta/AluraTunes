@@ -1,0 +1,136 @@
+body {
+    margin: auto;
+    padding-top: 1rem;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.form-group {
+    margin: auto;
+    width: 98%;
+    text-align: right;
+    margin: 1rem 0;
+}
+
+.div-button {
+    margin: auto;
+    width: 96%;
+    text-align: right;
+}
+
+.new-track-btn {
+    padding: .2rem .9rem;
+    background-color: #3d86d0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 #686666;
+    border-radius: .3rem;
+    border: 1px solid #2372c5;
+}
+
+.new-track-btn:hover {
+    background-color: #1073dd;
+    cursor: pointer;
+    border: 1px solid #3d86d0;
+}
+
+.input-group {
+    text-align: left;
+    width: 11rem;
+    border-radius: .3rem;
+    border: .1rem solid #57646e;
+    outline: none;
+}
+
+.background-grey {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding-bottom: 1rem;
+    background-color: #dddddd;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(179, 178, 178);
+}
+
+.imersao-dev {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #57646e;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.background-white {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    background-color: #fff;
+    width: 98.3%;
+    height: 25rem;
+    padding-bottom: 3rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid rgb(201, 200, 200);
+    overflow: scroll;
+}
+
+#backgroundList img {
+    width: 9rem;
+    height: auto;
+    margin: 3rem 1rem 0;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ccc;
+
+    transition: all 0.5s;
+}
+
+p {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #262626;
+    font-size: .8rem;
+}
+
+a { 
+    padding: 0;
+    text-decoration: none;
+}
+
+#backgroundList img:hover, 
+#backgroundList p:hover {
+    /* border-bottom: .2rem solid #ccc; */
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -webkit-filter: drop-shadow(15px 8px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 8px 5px rgba(0, 0, 0, 0.5));
+}
+
+.aluratunes-title {
+    width: 10.2rem;
+}
+
+.page-subtitle {
+    color: #000;
+    margin-top: 5px;
+}
+
+.alura-logo {
+    width: 2.5rem;
+    background-color: #1e1e1e;
+    padding: 0 2rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.footer-container {
+    margin: auto;
+    width: 80%;
+}
